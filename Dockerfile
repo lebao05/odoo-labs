@@ -16,4 +16,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "-c", "/etc/odoo/odoo.conf", "-d", "nailshop", "-i", "base", "--stop-after-init"]
+CMD ["odoo", "-c", "/etc/odoo/odoo.conf"]
