@@ -16,4 +16,4 @@ USER odoo
 
 EXPOSE 8069
 
-CMD ["odoo", "-c", "/etc/odoo/odoo.conf"]
+CMD ["odoo", "-c", "/etc/odoo/odoo.conf", "-i", "base"]
